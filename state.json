@@ -1,6 +1,6 @@
 {
-  "runs": 9601,
-  "last_run": "2026-05-31T20:00:43.269849+00:00",
+  "runs": 9602,
+  "last_run": "2026-05-31T21:08:05.267653+00:00",
   "paused": false,
   "pause_reason": null,
   "consecutive_errors": 0,
@@ -21,15 +21,15 @@
   "last_filters": {
     "pipeline_mode": "HMM_REAL",
     "regime": "SIDEWAYS",
-    "vol_percentile": 0.0977,
+    "vol_percentile": 0.1,
     "vol_ok": true,
-    "ema200_slope": -376.298906,
+    "ema200_slope": -375.16108,
     "ema200_ok": false,
     "regime_e11_ok": false,
     "daily_context_ts": "2026-05-31",
     "submodel": "xgb_bear",
-    "prob_e11": 0.5964,
-    "prob_e6": 0.5964,
+    "prob_e11": 0.5929,
+    "prob_e6": 0.5929,
     "signal": "HOLD",
     "strategy": "NONE",
     "fear_greed_raw": 28.0,
@@ -38,11 +38,6 @@
   },
   "trades": [],
   "equity_history": [
-    {
-      "ts": "2026-04-24T01:45:56.167671+00:00",
-      "equity": 57.942,
-      "unrealPL": 0.0
-    },
     {
       "ts": "2026-04-24T01:46:59.299877+00:00",
       "equity": 57.942,
@@ -10037,6 +10032,11 @@
       "ts": "2026-05-31T20:00:43.269849+00:00",
       "equity": 57.942,
       "unrealPL": 0.0
+    },
+    {
+      "ts": "2026-05-31T21:08:05.267653+00:00",
+      "equity": 57.942,
+      "unrealPL": 0.0
     }
   ],
   "live_balance": {
@@ -10045,14 +10045,6 @@
     "unrealized_pl": 0.0
   },
   "candles_1h": [
-    {
-      "ts": "2026-05-21T21:00:00+00:00",
-      "open": 77651.49,
-      "high": 77743.82,
-      "low": 77567.04,
-      "close": 77598.58,
-      "volume": 0.0
-    },
     {
       "ts": "2026-05-21T22:00:00+00:00",
       "open": 77603.18,
@@ -11959,22 +11951,22 @@
     },
     {
       "ts": "2026-05-31T20:00:00+00:00",
-      "open": 73503.55,
-      "high": 73503.55,
-      "low": 73503.55,
-      "close": 73503.55,
-      "volume": 0.0
+      "open": 73466.61,
+      "high": 73649.62,
+      "low": 73466.61,
+      "close": 73620.16,
+      "volume": 934622208.0
+    },
+    {
+      "ts": "2026-05-31T21:00:00+00:00",
+      "open": 73632.02,
+      "high": 73648.01,
+      "low": 73586.17,
+      "close": 73617.9,
+      "volume": 72464384.0
     }
   ],
   "prob_history": [
-    {
-      "ts": "2026-04-25T20:06:27.154598+00:00",
-      "regime": "BEAR",
-      "prob_e11": 0.63,
-      "prob_e6": 0.63,
-      "signal": "HOLD",
-      "strategy": "NONE"
-    },
     {
       "ts": "2026-04-25T20:54:16.129011+00:00",
       "regime": "BEAR",
@@ -15966,6 +15958,14 @@
       "prob_e6": 0.5964,
       "signal": "HOLD",
       "strategy": "NONE"
+    },
+    {
+      "ts": "2026-05-31T21:08:05.267653+00:00",
+      "regime": "SIDEWAYS",
+      "prob_e11": 0.5929,
+      "prob_e6": 0.5929,
+      "signal": "HOLD",
+      "strategy": "NONE"
     }
   ],
   "regime_history": [
@@ -18679,6 +18679,10 @@
     },
     {
       "ts": "2026-05-31T20:00:00+00:00",
+      "regime": "SIDEWAYS"
+    },
+    {
+      "ts": "2026-05-31T21:00:00+00:00",
       "regime": "SIDEWAYS"
     }
   ]
