@@ -1,8 +1,8 @@
 {
-  "runs": 9624,
-  "last_run": "2026-06-03T23:22:23.461861+00:00",
-  "paused": false,
-  "pause_reason": null,
+  "runs": 9625,
+  "last_run": "2026-06-04T02:01:50.720278+00:00",
+  "paused": true,
+  "pause_reason": "DRAWDOWN > 50%",
   "consecutive_errors": 0,
   "consecutive_losses": 0,
   "initial_equity": 57.942,
@@ -10041,8 +10041,8 @@
   ],
   "live_balance": {
     "available": 1.46330104,
-    "equity": 40.25789765532,
-    "unrealized_pl": -17.33156
+    "equity": 22.6851804911,
+    "unrealized_pl": -34.86948
   },
   "candles_1h": [
     {
