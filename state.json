@@ -1,6 +1,6 @@
 {
-  "runs": 11166,
-  "last_run": "2026-08-26T11:32:24.659689+00:00",
+  "runs": 11167,
+  "last_run": "2026-08-26T11:58:59.733120+00:00",
   "paused": true,
   "pause_reason": "DRAWDOWN > 50%",
   "consecutive_errors": 0,
